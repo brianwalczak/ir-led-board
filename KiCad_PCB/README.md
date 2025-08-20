@@ -6,6 +6,8 @@ Welcome! This folder includes a custom-designed printed circuit board for the `i
 
 This PCB was designed in KiCad (you can import it with `File > Open Project` and exported as a ready-to-print Gerber file. This PCB can be printed for about **~$2.00** (quanity of 5) on [JLCPCB](https://jlcpcb.com/) (not sponsored).
 
+**All routing has been automatically done by [Freerouting](https://github.com/freerouting/freerouting): an open-source auto-router for KiCad, built with Java.**
+
 #### Schematic
 <img src="https://github.com/user-attachments/assets/6e260d4a-a332-4b13-92a8-1d981e03b3b7" alt="Schematic" width="600"/>
 
