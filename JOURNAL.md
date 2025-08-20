@@ -11,7 +11,7 @@ Hello! Today I finalized the design and exported the Gerber files to have them m
 
 JLCPCB is estimating a total of $2.00 + $3.30 shipping, pretty solid for a quantity of 5 (in-case I mess up while soldering... heck I probably will).
 
-<img height="300" alt="image" src="https://github.com/user-attachments/assets/4e81b920-8290-4afa-ba44-e9812ef5cf76" /> <img height="300" alt="image" src="https://github.com/user-attachments/assets/11ea9755-d176-4a4d-8649-bab37f31686c" />
+<img height="300" alt="image" src="https://github.com/user-attachments/assets/892acb49-c153-4012-a20d-3f0a2753174f" /> <img height="300" alt="image" src="https://github.com/user-attachments/assets/11ea9755-d176-4a4d-8649-bab37f31686c" />
 
 **Total time spent: 15m**
 
@@ -25,7 +25,7 @@ Overall, I'm pretty excited to see how the final board turns out. Next, I'll hav
 
 Oh, and here's what it looks like:
 
-<img height="300" alt="image" src="https://github.com/user-attachments/assets/6b79b86b-94a3-42e0-9343-61d491c38879" />
+<img height="300" alt="image" src="https://github.com/user-attachments/assets/1bc104b0-c4a9-45d7-b204-e6b6ab21bd8b" />
 
 **Total time spent: 10m**
 
@@ -47,7 +47,7 @@ I've been working on analyzing the datasheets of my selected components and crea
 
 Also, I haven't used KiCad in a while, so I spent quite a lot of time getting used to it again. I've designed a simple schematic for the project using some net labels and I'm currently working on PCB design next!
 
-<img height="400" alt="image" src="https://github.com/user-attachments/assets/f1a1907f-c9cd-40c4-959d-ff2614e340d6" />
+<img height="400" alt="image" src="https://github.com/user-attachments/assets/6e260d4a-a332-4b13-92a8-1d981e03b3b7" />
 
 **Total time spent: 2.5h**
 
