@@ -1,0 +1,5469 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2cbd6d21-bb61-4683-b31c-7f4995787ad3")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x06"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED:IRL81A"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0.508 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "IRL81A"
+				(at -1.016 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "850nm High Power Infrared Emitter, Side-Emitter package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "IR LED"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*SideEmitter*Rectangular*W4.5mm*H1.6mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IRL81A_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.413 1.651) (xy -0.889 3.175) (xy -0.889 2.667) (xy -0.889 3.175) (xy -1.397 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 1.651) (xy 0.381 3.175) (xy 0.381 2.667)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 1.27) (xy -2.54 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 3.175) (xy -0.127 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IRL81A_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:Q_NMOS_GDS"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NMOS_GDS"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, gate/drain/source"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_NMOS_GDS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NMOS_GDS_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 205.74 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23458cc9-fe9e-41a2-bea9-f92b30a096cc")
+	)
+	(junction
+		(at 205.74 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "435f9bfa-e2e2-42fe-aa2f-667d83fa3584")
+	)
+	(junction
+		(at 205.74 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5485ef3c-8366-4660-9a26-b977eacaa145")
+	)
+	(junction
+		(at 205.74 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55e27fd9-7170-40dc-8b95-7e6569db7d02")
+	)
+	(wire
+		(pts
+			(xy 105.41 86.36) (xy 106.68 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "016fa5a4-9faa-41f9-ae5a-3d16d7aaaa2e")
+	)
+	(wire
+		(pts
+			(xy 73.66 33.02) (xy 73.66 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06c797ff-4f08-4e89-af75-f6e717bd4b13")
+	)
+	(wire
+		(pts
+			(xy 137.16 86.36) (xy 138.43 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06d2b34c-fde6-4457-a54e-1a3a2f95db86")
+	)
+	(wire
+		(pts
+			(xy 73.66 34.29) (xy 74.93 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "072a9d06-1da3-4d70-b501-da9a82cf85ee")
+	)
+	(wire
+		(pts
+			(xy 205.74 36.83) (xy 205.74 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a691f6e-7e71-4401-8c8e-2e00f45a9775")
+	)
+	(wire
+		(pts
+			(xy 90.17 114.3) (xy 91.44 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a924198-248b-49e7-83f2-8b33b65d6f8a")
+	)
+	(wire
+		(pts
+			(xy 153.67 114.3) (xy 154.94 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ac38745-38d1-4cb9-a28c-0a4de3a6ddaa")
+	)
+	(wire
+		(pts
+			(xy 154.94 113.03) (xy 154.94 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0efcc6f3-c2a3-4701-bd30-8ad623c73802")
+	)
+	(wire
+		(pts
+			(xy 237.49 60.96) (xy 246.38 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11bb1670-1c09-4cca-a989-50f858bf54b4")
+	)
+	(wire
+		(pts
+			(xy 237.49 66.04) (xy 246.38 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1211be36-b119-4c9a-8085-3fb9d2dd1a1d")
+	)
+	(wire
+		(pts
+			(xy 186.69 113.03) (xy 186.69 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1518e21f-f0bc-45e4-86d4-447eb4db6101")
+	)
+	(wire
+		(pts
+			(xy 73.66 113.03) (xy 73.66 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17179634-432f-477c-b1aa-ea68545d34cf")
+	)
+	(wire
+		(pts
+			(xy 137.16 113.03) (xy 137.16 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17bd5457-d1bf-4233-9532-50d0ae4c5b82")
+	)
+	(wire
+		(pts
+			(xy 196.85 29.21) (xy 198.12 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b0f85ef-10c3-4159-8538-e5529f0fccb2")
+	)
+	(wire
+		(pts
+			(xy 137.16 114.3) (xy 138.43 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cf99ffc-7fe8-423e-8295-2aa88f4d1252")
+	)
+	(wire
+		(pts
+			(xy 168.91 57.15) (xy 168.91 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "207acbee-a137-488f-acfe-7bccd5c40965")
+	)
+	(wire
+		(pts
+			(xy 73.66 85.09) (xy 73.66 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2534efdc-0aca-46e1-bb93-0f92a090d360")
+	)
+	(wire
+		(pts
+			(xy 105.41 85.09) (xy 105.41 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25b0e663-a46b-4bbc-be97-fde48a2a5d56")
+	)
+	(wire
+		(pts
+			(xy 123.19 85.09) (xy 123.19 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28be5e5e-fcdf-40d4-a4dc-be809cc9d06f")
+	)
+	(wire
+		(pts
+			(xy 91.44 113.03) (xy 91.44 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b2c149a-9a80-470b-869c-626e376b9218")
+	)
+	(wire
+		(pts
+			(xy 196.85 80.01) (xy 198.12 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30e71f6e-4ce8-44ea-bf9f-ea177c469931")
+	)
+	(wire
+		(pts
+			(xy 168.91 85.09) (xy 168.91 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33ac4594-dfbf-4c06-ac06-12e82f42e5bd")
+	)
+	(wire
+		(pts
+			(xy 185.42 34.29) (xy 186.69 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37b33b4e-785b-4dc4-add5-937fa7362a77")
+	)
+	(wire
+		(pts
+			(xy 153.67 58.42) (xy 154.94 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37bfe654-aa43-49a5-8f54-a9d26d12dc12")
+	)
+	(wire
+		(pts
+			(xy 237.49 68.58) (xy 246.38 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b5da55a-9a21-4653-905c-1eb2cd3c224d")
+	)
+	(wire
+		(pts
+			(xy 196.85 27.94) (xy 196.85 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3efb578f-e342-41bd-b14e-a77375c1a2ed")
+	)
+	(wire
+		(pts
+			(xy 153.67 34.29) (xy 154.94 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43fe3e7d-1e23-460e-b7b9-56ee589e554e")
+	)
+	(wire
+		(pts
+			(xy 213.36 85.09) (xy 213.36 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45e1e431-93d2-4038-8cbd-a2123d5ea52b")
+	)
+	(wire
+		(pts
+			(xy 168.91 114.3) (xy 170.18 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d985ddd-0708-4aa1-a335-5c73a2400012")
+	)
+	(wire
+		(pts
+			(xy 168.91 34.29) (xy 170.18 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f640b30-deed-48dc-bb86-100f3e7949dc")
+	)
+	(wire
+		(pts
+			(xy 213.36 113.03) (xy 213.36 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fe975dd-8dda-4da9-bbd4-467c288d7661")
+	)
+	(wire
+		(pts
+			(xy 213.36 34.29) (xy 213.36 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50c11b62-2538-47ed-957c-70383a0537ee")
+	)
+	(wire
+		(pts
+			(xy 123.19 33.02) (xy 123.19 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51512df8-e84d-4068-9d3e-cb9ba313e0f2")
+	)
+	(wire
+		(pts
+			(xy 105.41 57.15) (xy 105.41 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5481d080-d544-43a4-95f4-a581e4de21f9")
+	)
+	(wire
+		(pts
+			(xy 73.66 86.36) (xy 74.93 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "592e6502-53c0-4b35-ab21-e4fe1649dd1a")
+	)
+	(wire
+		(pts
+			(xy 91.44 33.02) (xy 91.44 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a0bf0bb-94d3-4392-941c-fa253e6243f9")
+	)
+	(wire
+		(pts
+			(xy 123.19 86.36) (xy 121.92 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65565bde-19e6-4b2a-858f-9658feb4b0eb")
+	)
+	(wire
+		(pts
+			(xy 105.41 33.02) (xy 105.41 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67dfc49a-af55-478e-8159-39039c43dac1")
+	)
+	(wire
+		(pts
+			(xy 137.16 58.42) (xy 138.43 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f22deb4-1687-49f3-a727-8612a7369723")
+	)
+	(wire
+		(pts
+			(xy 196.85 78.74) (xy 196.85 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "736de268-3790-4bfe-9f17-bbfd1e69cdcc")
+	)
+	(wire
+		(pts
+			(xy 213.36 46.99) (xy 213.36 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74c6d007-4e56-4d4e-96d7-a36ccd0f16b8")
+	)
+	(wire
+		(pts
+			(xy 213.36 22.86) (xy 213.36 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77ae35c4-e09b-406b-94ca-aeba707871cb")
+	)
+	(wire
+		(pts
+			(xy 73.66 57.15) (xy 73.66 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "797ea266-d4ab-4359-82c9-f1d5fa107002")
+	)
+	(wire
+		(pts
+			(xy 185.42 58.42) (xy 186.69 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79e361b4-d651-4702-adf1-58ceffcba521")
+	)
+	(wire
+		(pts
+			(xy 154.94 33.02) (xy 154.94 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ce4a085-73ec-44ce-b39f-21c7ee0751d1")
+	)
+	(wire
+		(pts
+			(xy 213.36 58.42) (xy 213.36 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb3d1f5-33cc-4ce6-aa85-3ff9c52374a0")
+	)
+	(wire
+		(pts
+			(xy 90.17 58.42) (xy 91.44 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80b59e3f-428e-4690-a594-7d527540ae37")
+	)
+	(wire
+		(pts
+			(xy 154.94 57.15) (xy 154.94 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8152939f-39e2-4fee-8a65-0126509d3b6e")
+	)
+	(wire
+		(pts
+			(xy 205.74 60.96) (xy 205.74 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8238c0f0-97d3-437a-bfd1-a88e5dd6cdbc")
+	)
+	(wire
+		(pts
+			(xy 137.16 57.15) (xy 137.16 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88baca60-5948-4954-9d07-794db15462f5")
+	)
+	(wire
+		(pts
+			(xy 237.49 73.66) (xy 246.38 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8998fe6e-9e0b-49c4-9ed9-8a996424cc64")
+	)
+	(wire
+		(pts
+			(xy 196.85 53.34) (xy 198.12 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c956f99-0a66-440a-bb00-2447e8c95637")
+	)
+	(wire
+		(pts
+			(xy 213.36 101.6) (xy 213.36 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fbd7213-b8ca-425a-a8a6-172b64629990")
+	)
+	(wire
+		(pts
+			(xy 168.91 58.42) (xy 170.18 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91dae87a-48e1-42ae-af23-960b283de448")
+	)
+	(wire
+		(pts
+			(xy 137.16 85.09) (xy 137.16 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95f79c93-f92f-46df-9992-0bb2f438882d")
+	)
+	(wire
+		(pts
+			(xy 137.16 33.02) (xy 137.16 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f6d864-6cda-46ae-8142-2309545fc234")
+	)
+	(wire
+		(pts
+			(xy 185.42 86.36) (xy 186.69 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c6d2c25-abec-46c4-bb47-90d44f906577")
+	)
+	(wire
+		(pts
+			(xy 168.91 113.03) (xy 168.91 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a23d2bb4-7411-4763-99f9-942b83519ebe")
+	)
+	(wire
+		(pts
+			(xy 123.19 58.42) (xy 121.92 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3714551-55df-40c4-afe9-71b681b48faf")
+	)
+	(wire
+		(pts
+			(xy 185.42 114.3) (xy 186.69 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a870307c-aeaa-4165-ba57-802375225bd5")
+	)
+	(wire
+		(pts
+			(xy 105.41 34.29) (xy 106.68 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af9fefdb-de0b-4497-8421-3088194f8c90")
+	)
+	(wire
+		(pts
+			(xy 105.41 114.3) (xy 106.68 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b08ae284-e9ed-4696-b6d9-88a7be88c27e")
+	)
+	(wire
+		(pts
+			(xy 196.85 107.95) (xy 198.12 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b35aa313-b37e-4e06-9b0e-a55c45dc9f77")
+	)
+	(wire
+		(pts
+			(xy 237.49 63.5) (xy 246.38 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6c70ef5-2dd7-4ec8-9355-493f89db715a")
+	)
+	(wire
+		(pts
+			(xy 213.36 73.66) (xy 213.36 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d7ee83-4406-4146-8b48-cb57e6da7f3c")
+	)
+	(wire
+		(pts
+			(xy 73.66 114.3) (xy 74.93 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba722810-7bbb-4129-b972-e11d51152b9d")
+	)
+	(wire
+		(pts
+			(xy 105.41 113.03) (xy 105.41 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb1ca8e2-0201-42cb-b564-ffb18f7e2996")
+	)
+	(wire
+		(pts
+			(xy 196.85 52.07) (xy 196.85 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc3c5c37-37f9-48d8-a3b0-42ec6bfc9a15")
+	)
+	(wire
+		(pts
+			(xy 205.74 90.17) (xy 205.74 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0ced7a6-2a29-46ec-bbff-bd8224c51674")
+	)
+	(wire
+		(pts
+			(xy 205.74 118.11) (xy 205.74 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c289334b-e25a-4530-89fd-c205cf899f45")
+	)
+	(wire
+		(pts
+			(xy 90.17 86.36) (xy 91.44 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf95b162-dee7-458d-879d-5cf49651fcaf")
+	)
+	(wire
+		(pts
+			(xy 168.91 33.02) (xy 168.91 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d55e97e4-0ddb-440c-9d5e-b43aa7fc5126")
+	)
+	(wire
+		(pts
+			(xy 153.67 86.36) (xy 154.94 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9785045-11ec-419b-9bd9-ddc789c26b35")
+	)
+	(wire
+		(pts
+			(xy 123.19 34.29) (xy 121.92 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9809fef-76cf-4a38-8cbf-d9e1f90dc42f")
+	)
+	(wire
+		(pts
+			(xy 186.69 85.09) (xy 186.69 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfb75407-7f9b-4e25-a169-484903d70223")
+	)
+	(wire
+		(pts
+			(xy 123.19 57.15) (xy 123.19 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e177b558-5222-44af-ab65-934272308c88")
+	)
+	(wire
+		(pts
+			(xy 237.49 71.12) (xy 246.38 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6d7cf9e-02b6-44ab-97a1-1b689c899f4f")
+	)
+	(wire
+		(pts
+			(xy 186.69 57.15) (xy 186.69 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e795892d-f466-4d81-89d4-15a9de54bf7f")
+	)
+	(wire
+		(pts
+			(xy 91.44 85.09) (xy 91.44 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e79f6e8d-ffd2-4aec-8405-6bdcfd6dede1")
+	)
+	(wire
+		(pts
+			(xy 105.41 58.42) (xy 106.68 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9e677bc-2c16-4abf-bdac-60cb49300cd6")
+	)
+	(wire
+		(pts
+			(xy 154.94 85.09) (xy 154.94 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea69f411-f5a9-4803-97d1-8263f5330ef8")
+	)
+	(wire
+		(pts
+			(xy 186.69 33.02) (xy 186.69 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb2b09e8-5c35-4f36-a58c-5d60cef53a24")
+	)
+	(wire
+		(pts
+			(xy 168.91 86.36) (xy 170.18 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eda8071b-62ac-475c-ad0d-5c79b2e1020b")
+	)
+	(wire
+		(pts
+			(xy 91.44 57.15) (xy 91.44 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee3e0a5b-5a1e-4485-896d-fca06bab81d1")
+	)
+	(wire
+		(pts
+			(xy 123.19 114.3) (xy 121.92 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f63f1a0c-2bfe-4eea-8b79-040043239d27")
+	)
+	(wire
+		(pts
+			(xy 73.66 58.42) (xy 74.93 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f93be210-ebf5-4dc2-a3df-9e1ac4be326c")
+	)
+	(wire
+		(pts
+			(xy 196.85 106.68) (xy 196.85 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa43ba28-9a16-491b-8249-7b2a2458d822")
+	)
+	(wire
+		(pts
+			(xy 123.19 113.03) (xy 123.19 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fafd6e0c-4a32-4392-a383-29abd0ee2008")
+	)
+	(wire
+		(pts
+			(xy 90.17 34.29) (xy 91.44 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb99d196-4eb7-4d17-a4a9-b0e0f4e22f27")
+	)
+	(wire
+		(pts
+			(xy 137.16 34.29) (xy 138.43 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd3fa759-f5c2-4556-8c9f-ffdc38603b66")
+	)
+	(label "GND"
+		(at 205.74 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "102a8a20-411a-4ac7-9f66-6434ddbd753a")
+	)
+	(label "GND"
+		(at 205.74 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1211b3d0-05b4-4aa8-8c72-7758e4b95836")
+	)
+	(label "3_DRAIN"
+		(at 168.91 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1a4c535a-1fc7-4ba1-8d5e-02a795323d12")
+	)
+	(label "1_DRAIN"
+		(at 213.36 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e32b6da-918a-44fd-bd77-e2a7cac99d28")
+	)
+	(label "GND"
+		(at 213.36 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fdaed9e-b0af-4808-b6f1-2bd35977631a")
+	)
+	(label "GND"
+		(at 237.49 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21483608-b42a-4e9e-a9a7-4260f1c7b67a")
+	)
+	(label "2_DRAIN"
+		(at 213.36 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2359742f-d671-4ca7-992e-e5c6f5eebdaf")
+	)
+	(label "5V"
+		(at 186.69 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2646b73b-357b-4f55-ad5a-f8b08991139f")
+	)
+	(label "GPIO1"
+		(at 196.85 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "266c754d-2d5e-407e-8b4f-cd9140803092")
+	)
+	(label "5V"
+		(at 123.19 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "36d062a6-c1ed-4f35-b602-c1d5cb793172")
+	)
+	(label "5V"
+		(at 91.44 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3c400ed1-e35d-4e2d-869a-166763a4f42a")
+	)
+	(label "GPIO2"
+		(at 196.85 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e8ad0b9-abf4-4643-8bcf-dcdeda20281c")
+	)
+	(label "GND"
+		(at 205.74 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4171dd9e-482a-4717-ba49-255c2a18d2b8")
+	)
+	(label "5V"
+		(at 186.69 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "446a067b-ade3-487a-b1b1-87746928727b")
+	)
+	(label "GPIO4"
+		(at 196.85 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "51c8be7c-b055-42b0-b91e-0c2379a7f7c1")
+	)
+	(label "GND"
+		(at 213.36 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "577d3178-ccf9-4abc-8cbb-1dc298442367")
+	)
+	(label "GND"
+		(at 213.36 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5cb0a943-b05e-4a75-a36e-5ec2b091a5bb")
+	)
+	(label "3_DRAIN"
+		(at 137.16 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5ec680cb-048a-42c5-b559-af6a3a627f3f")
+	)
+	(label "3_DRAIN"
+		(at 105.41 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5f81938e-d8c4-4185-ad4c-4370d4a994e2")
+	)
+	(label "1_DRAIN"
+		(at 105.41 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "66199f1a-84e7-4426-84b5-a5ae65f4fada")
+	)
+	(label "1_DRAIN"
+		(at 168.91 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "681d6e86-3845-4605-9b70-289f21108793")
+	)
+	(label "5V"
+		(at 186.69 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "69e8c9bc-4d05-4cc7-8249-c585381cc018")
+	)
+	(label "5V"
+		(at 154.94 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6ac65d0a-9f1f-42dd-b782-10790605a7ea")
+	)
+	(label "3_DRAIN"
+		(at 213.36 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c6eaa70-499e-4cee-a0b9-8f5ee190a787")
+	)
+	(label "2_DRAIN"
+		(at 137.16 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6f8a983d-ae2b-4e31-a497-d5899c3bc74f")
+	)
+	(label "GPIO4"
+		(at 237.49 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70894934-aa72-4905-bf70-7979d057d182")
+	)
+	(label "5V"
+		(at 123.19 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "75cf50c3-5227-4838-9b40-2578a9771af9")
+	)
+	(label "GND"
+		(at 213.36 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7893785c-f529-4535-b1b6-24ea489832d9")
+	)
+	(label "2_DRAIN"
+		(at 73.66 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7cf11d96-0a11-4e42-a88b-549bcf372618")
+	)
+	(label "5V"
+		(at 186.69 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "83eb5ca5-d8c8-47bc-8cb6-0db2d54c472f")
+	)
+	(label "5V"
+		(at 91.44 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8663a0fe-e8c4-42de-989a-17126deac3e5")
+	)
+	(label "5V"
+		(at 154.94 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8ced6498-c089-4f51-a060-7f5317d97122")
+	)
+	(label "5V"
+		(at 237.49 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9420466c-e5da-4a44-a95a-95b0211a8126")
+	)
+	(label "5V"
+		(at 91.44 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "97308306-9acd-4549-a87d-ebb4317b45d8")
+	)
+	(label "5V"
+		(at 91.44 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "973878d3-e894-4c62-bd14-9835057d681d")
+	)
+	(label "4_DRAIN"
+		(at 168.91 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "97d45360-75a0-4635-ab99-7bb574f18c00")
+	)
+	(label "5V"
+		(at 154.94 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "97f2871b-d050-4f64-bed2-2140c0b8c3ff")
+	)
+	(label "4_DRAIN"
+		(at 105.41 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f718824-c796-448a-9a2c-5b05a2b6f038")
+	)
+	(label "5V"
+		(at 123.19 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a6b1d430-acac-414b-b952-0e0923f1dde0")
+	)
+	(label "GPIO2"
+		(at 237.49 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aae8d196-983d-4db2-8d26-db37130fb5d7")
+	)
+	(label "4_DRAIN"
+		(at 73.66 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b0753422-4db9-4f50-9316-11afe14efaf5")
+	)
+	(label "1_DRAIN"
+		(at 137.16 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c0ac25a9-b08e-4a07-aef0-ce36fca9db48")
+	)
+	(label "4_DRAIN"
+		(at 213.36 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c575a2b0-bbda-4eca-9b43-5df82b0d72b3")
+	)
+	(label "3_DRAIN"
+		(at 73.66 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c8de78a8-4d4b-4d3e-a33d-54dc2e4e7f6c")
+	)
+	(label "GPIO3"
+		(at 196.85 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0dcf268-7f64-4bd6-a343-93377158d2a3")
+	)
+	(label "GND"
+		(at 205.74 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1c99592-c8f7-432a-b5be-ef193aeaef68")
+	)
+	(label "GPIO3"
+		(at 237.49 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4789564-4cea-434e-8d89-a1198d76051b")
+	)
+	(label "5V"
+		(at 154.94 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e9e42dbc-57e9-47da-bc1c-7ba8cf7231c7")
+	)
+	(label "2_DRAIN"
+		(at 105.41 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ecb3a478-88bd-41d0-8cba-16d0400a1e6e")
+	)
+	(label "5V"
+		(at 123.19 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f531bbc3-4091-49d6-a06d-8dc5fbd8a59c")
+	)
+	(label "2_DRAIN"
+		(at 168.91 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f63296c5-1fb1-4dca-b1e1-bbdac0aef4ba")
+	)
+	(label "1_DRAIN"
+		(at 73.66 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fad8ff2c-ccac-447f-ae77-aafeccc872d0")
+	)
+	(label "4_DRAIN"
+		(at 137.16 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fb6afafd-de95-42c6-8a6b-23a6688bab4b")
+	)
+	(label "GPIO1"
+		(at 237.49 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd3365db-63e3-497a-b8e5-ab9f8fbfc7b6")
+	)
+	(symbol
+		(lib_id "LED:IRL81A")
+		(at 143.51 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "115f6965-6e5d-4a18-a283-cfda157127ed")
+		(property "Reference" "LED15"
+			(at 142.367 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SFH 4556"
+			(at 142.367 109.22 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "ir-led-board:SFH_4556"
+			(at 143.51 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "28d6095f-5cd7-4704-a266-c2066f5100b0")
+		)
+		(pin "1"
+			(uuid "09308384-40e1-4b0f-97bd-98c2533bed7f")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "LED15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 201.93 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "134f3b91-a36e-463e-8200-009d2cf2953a")
+		(property "Reference" "R_100_1"
+			(at 201.93 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "100 Ω"
+			(at 201.93 29.21 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:CF14JT100R"
+			(at 201.93 30.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 201.93 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "988719f9-d95d-4d70-9200-1c303f1e825b")
+		)
+		(pin "1"
+			(uuid "411d44ac-008d-4fb5-9eb5-1d5c14fd55d8")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "R_100_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 86.36 34.29 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17f60087-4ce2-48b4-9044-133e6854296d")
+		(property "Reference" "R1"
+			(at 86.36 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "43 Ω"
+			(at 86.36 34.29 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:CFM12JT43R0"
+			(at 86.36 36.068 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 86.36 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "983ff194-1a54-4d65-bd40-96df565ddc9f")
+		)
+		(pin "1"
+			(uuid "acbaa7dc-d478-4ee9-a657-439890690448")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 205.74 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1cde4705-5a88-4313-9e13-a71a17a5d6f9")
+		(property "Reference" "R_100K_2"
+			(at 199.39 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "100k Ω"
+			(at 205.74 57.15 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:CF14JT100K"
+			(at 207.518 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 205.74 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ece50dfa-a73c-40e3-be7f-2b8e7a0fbf7e")
+		)
+		(pin "1"
+			(uuid "9a1b7cd9-26f0-4306-ae29-aece543d93cf")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "R_100K_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 201.93 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "261d238f-1a5e-4bd5-8c89-76b42fee3e6b")
+		(property "Reference" "R_100_2"
+			(at 201.93 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "100 Ω"
+			(at 201.93 53.34 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:CF14JT100R"
+			(at 201.93 55.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 201.93 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "18ef4dde-7b0e-4c2d-9ee7-a8f37e74af8a")
+		)
+		(pin "1"
+			(uuid "991680f7-f030-47ce-b0c4-2f9c300bd23c")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "R_100_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:IRL81A")
+		(at 175.26 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27056b77-cbda-404b-b7c6-7a2892566d46")
+		(property "Reference" "LED12"
+			(at 174.117 78.74 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SFH 4556"
+			(at 174.117 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "ir-led-board:SFH_4556"
+			(at 175.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2caec2f3-5e7c-42dc-879a-5f369d0dda4c")
+		)
+		(pin "1"
+			(uuid "5de91f12-7ed6-462e-902d-2cf81f413014")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "LED12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.61 86.36 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28975cba-ac5a-46b3-bf1f-bb8c6fa1778b")
+		(property "Reference" "R12"
+			(at 181.61 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "43 Ω"
+			(at 181.61 86.36 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:CFM12JT43R0"
+			(at 181.61 88.138 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 181.61 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9a36bede-ac52-4564-9e0a-bb783e682736")
+		)
+		(pin "1"
+			(uuid "a8ec3790-14ff-4fe2-b26b-489b24652619")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:IRL81A")
+		(at 111.76 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2df14616-be7e-45d8-8c68-dcc3e35abfaf")
+		(property "Reference" "LED2"
+			(at 110.617 26.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SFH 4556"
+			(at 110.617 29.21 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "ir-led-board:SFH_4556"
+			(at 111.76 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e08e5f31-93e1-4ef3-8d3c-5606d8669223")
+		)
+		(pin "1"
+			(uuid "62a9277c-18eb-4345-a0f3-df90f92dcb16")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 201.93 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4da6261f-cc74-4e23-be73-34c2a91f761c")
+		(property "Reference" "R_100_3"
+			(at 201.93 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "100 Ω"
+			(at 201.93 80.01 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:CF14JT100R"
+			(at 201.93 81.788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 201.93 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0d417f1d-8d1f-4019-a1c7-84f663a7af24")
+		)
+		(pin "1"
+			(uuid "29652448-97be-4dad-918b-7d9f9f41eeca")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "R_100_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 86.36 58.42 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51a2f806-f23e-480f-9655-676d9978200d")
+		(property "Reference" "R5"
+			(at 86.36 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "43 Ω"
+			(at 86.36 58.42 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:CFM12JT43R0"
+			(at 86.36 60.198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 86.36 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dd22f29a-cc37-4f71-9ce3-fcadc81b74b7")
+		)
+		(pin "1"
+			(uuid "049830d9-ca42-4768-91b7-0f542349bb4c")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:IRL81A")
+		(at 175.26 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54b60ed5-606c-4584-ad13-71c79cbc0ead")
+		(property "Reference" "LED4"
+			(at 174.117 26.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SFH 4556"
+			(at 174.117 29.21 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "ir-led-board:SFH_4556"
+			(at 175.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d27f3065-15ab-4bd6-8ef1-c0ac3535d6a2")
+		)
+		(pin "1"
+			(uuid "4f8bc548-7dd8-4720-b7be-728e21c7c81f")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:IRL81A")
+		(at 111.76 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "590bb665-dbf6-47b8-8b83-51bcd48737d3")
+		(property "Reference" "LED6"
+			(at 110.617 50.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SFH 4556"
+			(at 110.617 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "ir-led-board:SFH_4556"
+			(at 111.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9786ee34-6308-4e06-839e-f37590cb7f4b")
+		)
+		(pin "1"
+			(uuid "397d0f7a-12d1-4e59-aa81-d9d20bc02b99")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "LED6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.61 58.42 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cd97270-b126-4fe5-a0de-06cdc5aeecb2")
+		(property "Reference" "R8"
+			(at 181.61 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "43 Ω"
+			(at 181.61 58.42 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:CFM12JT43R0"
+			(at 181.61 60.198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 181.61 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "20514816-1839-4019-bbbb-674599067988")
+		)
+		(pin "1"
+			(uuid "782a9b69-682d-4c38-b48d-afc4d82b4116")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GDS")
+		(at 210.82 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6254b98d-4940-4f3d-baf4-370ac25b08ad")
+		(property "Reference" "Group_3"
+			(at 217.17 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Q_NMOS_GDS"
+			(at 217.17 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ir-led-board:IRLB8743PBF"
+			(at 215.9 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 210.82 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70a20acf-6eae-4144-9bbc-e9d617c39450")
+		)
+		(pin "2"
+			(uuid "fdc06e8e-2a9f-4823-917d-5efd64ea7357")
+		)
+		(pin "3"
+			(uuid "e2a30270-fc04-4e27-8fb2-1fb729ff66f6")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "Group_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:IRL81A")
+		(at 80.01 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a25d278-a590-41ed-b11e-90001ccdf394")
+		(property "Reference" "LED9"
+			(at 78.867 78.74 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SFH 4556"
+			(at 78.867 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "ir-led-board:SFH_4556"
+			(at 80.01 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bdc6556b-bff0-4856-878c-7c5938744824")
+		)
+		(pin "1"
+			(uuid "312128a5-f57a-4501-8d11-aa4925507963")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "LED9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GDS")
+		(at 210.82 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c170e17-ca38-40a1-a69e-a62dd32bee9a")
+		(property "Reference" "Group_2"
+			(at 217.17 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Q_NMOS_GDS"
+			(at 217.17 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ir-led-board:IRLB8743PBF"
+			(at 215.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 210.82 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "326595bd-abed-44f9-978f-66229d84a881")
+		)
+		(pin "2"
+			(uuid "e10b64ff-32f6-4860-bb68-3f7275eafc61")
+		)
+		(pin "3"
+			(uuid "a4dedfad-3fb9-49a1-a8f5-cf667918de72")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "Group_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 149.86 34.29 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f86d981-67c0-4f2d-9f2d-c7ad04ce95b0")
+		(property "Reference" "R3"
+			(at 149.86 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "43 Ω"
+			(at 149.86 34.29 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:CFM12JT43R0"
+			(at 149.86 36.068 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 149.86 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2f7b8b0f-208a-4971-b043-7ee0c06f5684")
+		)
+		(pin "1"
+			(uuid "28c18a32-e941-48d9-a65a-045015322c53")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 149.86 114.3 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74c56e7d-a3cd-4bcf-8b87-e90c59d083d8")
+		(property "Reference" "R15"
+			(at 149.86 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "43 Ω"
+			(at 149.86 114.3 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:CFM12JT43R0"
+			(at 149.86 116.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 149.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ecbde146-3f68-41b5-abdf-021ee79591d3")
+		)
+		(pin "1"
+			(uuid "5889c586-5c1f-4478-82a3-9fa8c659bf1f")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:IRL81A")
+		(at 143.51 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a7f530c-7d8e-4fa2-acc0-2742c65bd5c6")
+		(property "Reference" "LED7"
+			(at 142.367 50.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SFH 4556"
+			(at 142.367 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "ir-led-board:SFH_4556"
+			(at 143.51 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a70b276-46f1-492c-bca8-1d7244f745fb")
+		)
+		(pin "1"
+			(uuid "3ef688a1-0e25-4b06-bfef-478eb8b949c7")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "LED7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 205.74 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b04a866-389f-4249-9546-d3f010857426")
+		(property "Reference" "R_100K_1"
+			(at 199.39 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "100k Ω"
+			(at 205.74 33.02 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:CF14JT100K"
+			(at 207.518 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 205.74 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b18ffd10-c977-4731-a2ab-6c8b1ce42989")
+		)
+		(pin "1"
+			(uuid "3f84dffe-8059-43db-87cc-3ad909a573eb")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "R_100K_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:IRL81A")
+		(at 111.76 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c981f81-4751-4648-8497-3690d4d79fe3")
+		(property "Reference" "LED14"
+			(at 110.617 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SFH 4556"
+			(at 110.617 109.22 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "ir-led-board:SFH_4556"
+			(at 111.76 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7598fa55-43ff-4682-9b83-f3a199e5b49e")
+		)
+		(pin "1"
+			(uuid "91cb4430-ecb3-41d5-98aa-d95a36d285d3")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "LED14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:IRL81A")
+		(at 80.01 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "836ba877-6cb9-4c63-82a0-66e66ae4e545")
+		(property "Reference" "LED1"
+			(at 78.867 26.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SFH 4556"
+			(at 78.867 29.21 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "ir-led-board:SFH_4556"
+			(at 80.01 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "52016072-33c7-47b0-b034-27649bcc0c18")
+		)
+		(pin "1"
+			(uuid "3423088b-3dd3-47c9-a6d4-f399d9c27873")
+		)
+		(instances
+			(project ""
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GDS")
+		(at 210.82 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b6a2209-f98c-43a7-a64b-6c23d5ca942e")
+		(property "Reference" "Group_1"
+			(at 217.17 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Q_NMOS_GDS"
+			(at 217.17 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ir-led-board:IRLB8743PBF"
+			(at 215.9 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 210.82 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7db6dec6-08db-4e75-9ffd-b33e4010a200")
+		)
+		(pin "2"
+			(uuid "e4116e32-568c-4a97-8454-0b71a915772e")
+		)
+		(pin "3"
+			(uuid "c6758102-49fa-490e-b798-3a41cac2c39e")
+		)
+		(instances
+			(project ""
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "Group_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 86.36 86.36 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8caac991-d295-42fe-9671-de0b5290767a")
+		(property "Reference" "R9"
+			(at 86.36 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "43 Ω"
+			(at 86.36 86.36 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:CFM12JT43R0"
+			(at 86.36 88.138 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 86.36 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e5c8bc77-3887-4086-971e-f9ac2db4dbc8")
+		)
+		(pin "1"
+			(uuid "34c9426e-0a18-4745-bc8e-74a9d798f572")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 118.11 114.3 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91355a7d-a0d9-422b-91a6-05ff69b6a699")
+		(property "Reference" "R14"
+			(at 118.11 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "43 Ω"
+			(at 118.11 114.3 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:CFM12JT43R0"
+			(at 118.11 116.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 118.11 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ebdb1e68-1ef5-434c-8cd6-daec4a562dcb")
+		)
+		(pin "1"
+			(uuid "3f6cc178-158d-497e-8975-11308696dcea")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 86.36 114.3 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94b1c558-ffc6-46f0-868c-8ee0d9316c1f")
+		(property "Reference" "R13"
+			(at 86.36 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "43 Ω"
+			(at 86.36 114.3 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:CFM12JT43R0"
+			(at 86.36 116.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 86.36 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "72f258c6-93bd-45b1-8566-a247e9199778")
+		)
+		(pin "1"
+			(uuid "7cea0891-9c66-4426-a4ba-52b345cfb1b7")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 201.93 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98167f2d-5a5c-47ba-8306-2256b2358b54")
+		(property "Reference" "R_100_4"
+			(at 201.93 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "100 Ω"
+			(at 201.93 107.95 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:CF14JT100R"
+			(at 201.93 109.728 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 201.93 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8048e386-5bcc-4a60-a16b-5cea237da033")
+		)
+		(pin "1"
+			(uuid "3b8e8b41-ac4f-455c-b91f-14702a9c598c")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "R_100_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 149.86 86.36 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ba651dd-5f26-4fe3-b21c-ff07864f8665")
+		(property "Reference" "R11"
+			(at 149.86 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "43 Ω"
+			(at 149.86 86.36 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:CFM12JT43R0"
+			(at 149.86 88.138 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 149.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "03a05c18-4fd3-40b4-9d27-bd2a3a54ae83")
+		)
+		(pin "1"
+			(uuid "708ee8af-03bc-4a70-be83-5d96f6cbd7b6")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:IRL81A")
+		(at 80.01 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2723c04-bd6d-44fc-b182-c463a9f8f0af")
+		(property "Reference" "LED5"
+			(at 78.867 50.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SFH 4556"
+			(at 78.867 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "ir-led-board:SFH_4556"
+			(at 80.01 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f65160c6-6134-49ff-bd47-6c28e565675a")
+		)
+		(pin "1"
+			(uuid "12ac8249-3319-4c9d-a98f-cb26d91d82dc")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:IRL81A")
+		(at 80.01 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a647e14c-7d95-49dc-a677-0bfa47f6b4ca")
+		(property "Reference" "LED13"
+			(at 78.867 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SFH 4556"
+			(at 78.867 109.22 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "ir-led-board:SFH_4556"
+			(at 80.01 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e0bddc0e-f23b-4882-822a-c78e17610bbb")
+		)
+		(pin "1"
+			(uuid "54b6ffa1-2d59-4086-b3ad-161053ce89dc")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "LED13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.61 34.29 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7ed413f-9c62-434c-b02c-01995bd1a1f5")
+		(property "Reference" "R4"
+			(at 181.61 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "43 Ω"
+			(at 181.61 34.29 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:CFM12JT43R0"
+			(at 181.61 36.068 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 181.61 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e9094ab2-19eb-46b1-849e-eeb098e8bfcd")
+		)
+		(pin "1"
+			(uuid "d5835949-d57a-4d9c-a1ec-1fdbe954d402")
+		)
+		(instances
+			(project ""
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:IRL81A")
+		(at 175.26 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b20562bc-2ace-4218-9cbe-02e8b5af66e9")
+		(property "Reference" "LED16"
+			(at 174.117 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SFH 4556"
+			(at 174.117 109.22 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "ir-led-board:SFH_4556"
+			(at 175.26 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dad89dc1-0566-4e15-934d-ca341957acf8")
+		)
+		(pin "1"
+			(uuid "b7cd16d6-2548-4d0e-9236-2516fd6ca1fe")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "LED16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:IRL81A")
+		(at 175.26 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b31d356a-9d57-4458-9a82-0f08097cac08")
+		(property "Reference" "LED8"
+			(at 174.117 50.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SFH 4556"
+			(at 174.117 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "ir-led-board:SFH_4556"
+			(at 175.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ef7dedca-6268-43a2-9111-cb09b0cb0aa4")
+		)
+		(pin "1"
+			(uuid "9b45f82b-d78b-419f-99f4-6d3c89ea57c1")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "LED8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 118.11 58.42 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0ac6ffc-fe6b-450e-9985-707473a5c8d3")
+		(property "Reference" "R6"
+			(at 118.11 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "43 Ω"
+			(at 118.11 58.42 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:CFM12JT43R0"
+			(at 118.11 60.198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 118.11 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "916a8f48-6960-49d2-8d36-2590906512b3")
+		)
+		(pin "1"
+			(uuid "56bf20b5-6d10-41e7-925a-2e8c4c115e72")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:IRL81A")
+		(at 143.51 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c93d4b35-1ad9-4963-8b7f-1087530b8668")
+		(property "Reference" "LED11"
+			(at 142.367 78.74 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SFH 4556"
+			(at 142.367 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "ir-led-board:SFH_4556"
+			(at 143.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a192f8f9-19a4-4c3b-bd49-cfc2d1c5755d")
+		)
+		(pin "1"
+			(uuid "24557117-347f-469e-a283-2ba0e99305fa")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "LED11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GDS")
+		(at 210.82 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9884350-992b-4693-8109-b2b9880ae503")
+		(property "Reference" "Group_4"
+			(at 217.17 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Q_NMOS_GDS"
+			(at 217.17 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ir-led-board:IRLB8743PBF"
+			(at 215.9 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 210.82 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb43d1c5-4776-493e-927f-3f5c389cefa3")
+		)
+		(pin "2"
+			(uuid "0d730775-7f7f-4b9e-b3c0-ce1174083dc9")
+		)
+		(pin "3"
+			(uuid "1add39fd-18fb-40db-8440-25a81dab3795")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "Group_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.61 114.3 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da704412-a263-4928-9fcf-68ebbd09d748")
+		(property "Reference" "R16"
+			(at 181.61 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "43 Ω"
+			(at 181.61 114.3 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:CFM12JT43R0"
+			(at 181.61 116.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 181.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "af9ff058-c40b-456d-aa3f-3ff9e8d45ae0")
+		)
+		(pin "1"
+			(uuid "ee7443cc-4c24-40c1-845b-11e7d47261cb")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 205.74 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dee14025-6e63-4cb6-b123-f7bd8d5f2921")
+		(property "Reference" "R_100K_3"
+			(at 199.39 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "100k Ω"
+			(at 205.74 83.82 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:CF14JT100K"
+			(at 207.518 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 205.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "39b719c3-4c97-4d96-8b22-37b4590d3801")
+		)
+		(pin "1"
+			(uuid "cedd1810-a215-4f1d-9b3e-13db12962906")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "R_100K_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:IRL81A")
+		(at 143.51 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfdbda39-da31-4801-bfef-8a9230a018d3")
+		(property "Reference" "LED3"
+			(at 142.367 26.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SFH 4556"
+			(at 142.367 29.21 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "ir-led-board:SFH_4556"
+			(at 143.51 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7faaa13e-3b27-4269-97bf-e2523822cf71")
+		)
+		(pin "1"
+			(uuid "c2d1d208-706c-4de6-8f8b-4f4fd191464e")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 149.86 58.42 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e55e0870-08bd-4600-b19d-43df90f3b3fb")
+		(property "Reference" "R7"
+			(at 149.86 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "43 Ω"
+			(at 149.86 58.42 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:CFM12JT43R0"
+			(at 149.86 60.198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 149.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d6778622-6197-4027-88fa-07abeb45cd63")
+		)
+		(pin "1"
+			(uuid "fe23e3fc-a42c-4a2c-b24e-3875b40fbbaa")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 118.11 34.29 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7e96228-e973-4616-8a15-2611ae81219d")
+		(property "Reference" "R2"
+			(at 118.11 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "43 Ω"
+			(at 118.11 34.29 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:CFM12JT43R0"
+			(at 118.11 36.068 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 118.11 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "36d368aa-d2f3-497f-a2ad-ecb21a176957")
+		)
+		(pin "1"
+			(uuid "23ee6336-2c0c-4b59-bdea-7e2b01c595e6")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 251.46 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec44cc7f-ab96-4923-86db-f9cccc9cce96")
+		(property "Reference" "F1"
+			(at 254 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Female 1x6"
+			(at 254 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal"
+			(at 251.46 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 251.46 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "6bf70ad2-c474-440e-a9a5-6c2be1859210")
+		)
+		(pin "2"
+			(uuid "eb37cde3-67d0-4c7e-b8c2-5d93198e0912")
+		)
+		(pin "1"
+			(uuid "7f4b5631-4cf7-44bd-8a4e-654371cfb438")
+		)
+		(pin "4"
+			(uuid "516dfa71-83c1-44e4-8e16-ede83584162c")
+		)
+		(pin "3"
+			(uuid "58190026-ff02-49dc-a799-2303808f7324")
+		)
+		(pin "5"
+			(uuid "16b01bb4-9115-4780-aecb-f5165bc8e0b0")
+		)
+		(instances
+			(project ""
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 205.74 111.76 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee1d503d-16e3-49b7-a733-f9e49c9c6f05")
+		(property "Reference" "R_100K_4"
+			(at 199.39 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "100k Ω"
+			(at 205.74 111.76 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:CF14JT100K"
+			(at 207.518 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 205.74 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8efa01a0-3bdc-404a-b554-c39134d0dcd3")
+		)
+		(pin "1"
+			(uuid "c6c720a2-e15c-4929-869f-7930b7d3d4b8")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "R_100K_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 118.11 86.36 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3715b13-28c3-45d4-95a5-8451b4a29abc")
+		(property "Reference" "R10"
+			(at 118.11 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "43 Ω"
+			(at 118.11 86.36 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:CFM12JT43R0"
+			(at 118.11 88.138 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 118.11 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a5f486e7-3acc-46e5-943e-b329d8ea283e")
+		)
+		(pin "1"
+			(uuid "81023b80-6c77-4195-b388-e499087228a7")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:IRL81A")
+		(at 111.76 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f84aafdf-edec-4355-8b19-5d3af84d7057")
+		(property "Reference" "LED10"
+			(at 110.617 78.74 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SFH 4556"
+			(at 110.617 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "ir-led-board:SFH_4556"
+			(at 111.76 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "19e49251-304e-4e34-ad03-9e8af491a8e2")
+		)
+		(pin "1"
+			(uuid "7359e33f-f5bc-42cd-819d-c682ab319f39")
+		)
+		(instances
+			(project "ir-led-board"
+				(path "/2cbd6d21-bb61-4683-b31c-7f4995787ad3"
+					(reference "LED10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
