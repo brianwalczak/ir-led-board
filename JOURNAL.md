@@ -5,6 +5,16 @@ Description: "A custom circuit to control an array of 16 high-current IR LEDs. T
 Created On: "8/9/2025"
 ---
 
+# August 20th: Designing a protective case.
+
+Final step of the process! Today I designed a simple 3D printable housing to keep the PCB and its components nice and safe. I tried to make the model as compact as possible to save space.
+
+I created the case in Fusion 360 and added some pre-designated mounting holes where I can attach the PCB. It was specifically made to use four M3 screws, 8mm in length!
+
+<img height="300" alt="image" src="https://github.com/user-attachments/assets/5dac2d5d-b5b4-4978-b274-93c94a39c024" /> <img height="300" alt="image" src="https://github.com/user-attachments/assets/e2bcc478-69ee-43c3-85f9-165e64d9afaa" />
+
+**Total time spent: 1h**
+
 # August 19th: Send to JLCPCB, ordering parts.
 
 Hello! Today I finalized the design and exported the Gerber files to have them manufactured with JLCPCB. I was having trouble with the traces, so I used [Freerouting](https://github.com/freerouting/freerouting): an open-source auto-router for KiCad! This made the process much easier for me (and less stressful).
