@@ -21,3 +21,18 @@ A 3D printable case, designed in Fusion 360, made to securely hold the board and
 <img src="https://github.com/user-attachments/assets/e2bcc478-69ee-43c3-85f9-165e64d9afaa" alt="STL Model" width="600"/>
 
 👉 [Read More](3D_Print/README.md)
+
+#### Bill of Materials (BOM)
+
+| Qty | Part Number                | Total Price |
+|-----|------------------------------------------|-------------|
+| 1   | Raspberry Pi Camera 3 NoIR               | $25.00      |
+| 1   | Raspberry Pi 5 Camera Cable              | $1.10       |
+| 16  | SFH 4556-AW (850nm IR LEDs)              | $9.47       |
+| 16  | CFM12JT43R0 (43 Ohms resistor)           | $0.58       |
+| 4   | IRLB8743PBF (MOSFETs)                    | $4.76       |
+| 4   | DC0011 (thermal pads)                    | $2.20       |
+| 4   | CF14JT100R (100 Ohms resistor)           | $0.24       |
+| 4   | CF14JT100K (100K Ohms resistor)          | $0.24       |
+| 1   | PPPC061LGBN-RC (90-degree connector)     | $0.57       |
+|     | **Total**                                | **$44.16**  |
