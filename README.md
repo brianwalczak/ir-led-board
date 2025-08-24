@@ -26,6 +26,7 @@ A 3D printable case, designed in Fusion 360, made to securely hold the board and
 
 | Qty | Part Number                | Total Price |
 |-----|------------------------------------------|-------------|
+| 5   | JLCPCB: PCB Print               | $5.30      |
 | 1   | Raspberry Pi Camera 3 NoIR               | $25.00      |
 | 1   | Raspberry Pi 5 Camera Cable              | $1.10       |
 | 16  | SFH 4556-AW (850nm IR LEDs)              | $9.47       |
@@ -35,4 +36,4 @@ A 3D printable case, designed in Fusion 360, made to securely hold the board and
 | 4   | CF14JT100R (100 Ohms resistor)           | $0.24       |
 | 4   | CF14JT100K (100K Ohms resistor)          | $0.24       |
 | 1   | PPPC061LGBN-RC (90-degree connector)     | $0.57       |
-|     | **Total**                                | **$44.16**  |
+|     | **Total**                                | **$49.46**  |
